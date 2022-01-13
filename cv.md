@@ -1,13 +1,13 @@
 # Dmitrii Reez
 
-## Contact Info:
+## Contact Info
 * **Email:** ******@gmail.com
 * **GitHub:** [Reez74](https://github.com/Reez74)
 
 ## About Me:
 I always adhere to an active life position. Getting skills and using them in practice is my top priority.
 
-## Skills:
+## Skills
 * HTML
 * CSS
 * JS
@@ -29,8 +29,6 @@ for (let i = 0; i < array.length - 1; i++) {
 }
 console.log(array);
 ```
-
-
 ## Languages
-* Russian - Native
-* English - A2
+* Russian: Native
+* English: A2

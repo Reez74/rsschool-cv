@@ -1,4 +1,17 @@
-### Contact info:
-*************
----------------
-===============
+## Contact Info:
+---
+
+## About Me:
+---
+
+## Skills:
+---
+
+## Code Examples
+---
+
+## Education
+---
+
+## Languages
+---

@@ -2,7 +2,7 @@
 
 ## Contact Info:
 * **Email:** ******@gmail.com
-* **GitHub:** [Reez74](https://github.com/Reez74)
+* **GitHub:** [Reez74][git] [git][https://github.com/Reez74]
 
 ## About Me:
 I always adhere to an active life position. Getting skills and using them in practice is my top priority.

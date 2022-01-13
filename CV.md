@@ -1,7 +1,7 @@
-# Dmitrii Reez
+# Dmitrii Matveev
 
 ## Contact Info
-* **Email:** ******@gmail.com
+* **Email:** reez74@gmail.com
 * **GitHub:** [Reez74](https://github.com/Reez74)
 
 ## About Me

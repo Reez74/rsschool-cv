@@ -4,9 +4,116 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Front-end Developer - Matveev Dmitrii</title>
+  <link rel="preload" href="fonts/montserrat-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/normalize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  
+  <header class="header wrap">
+    <div class="header__content">
+      <h1 class="header__title">Matveev Dmitrii</h1>
+      <h2 class="header__subtitle">Front-end Developer</h2>
+      <p>Beginning web developer with a great desire to understand modern web technologies. My introduction to websites was back
+      in the early 2000s, but then it was not the main professional activity</p>
+    </div>
+    <div class="header__img">
+      <img src="./img/avatar.jpg" width="100" height="100" alt="Avatar">
+    </div>
+  </header>
+  <main class="main wrap">
+    <section class="about-me">
+        <h3 class="about-me__header">About me</h3>
+        <p>I always have an active attitude to life. Gaining skills and putting them into practice is my main priority. Particular
+        attention to detail and complete immersion in the development process</p>
+    </section>
+    <section class="code">
+        <h3 class="code__header">Code examples</h3>
+        <pre class="code__pre">
+<code>let array = [0, 14, 2, 30, 49, 5, 33];
+for (let i = 0; i &lt; array.length - 1; i++) {
+  let maxValue=array[i]; 
+  for (let j=i + 1; j &lt; array.length; j++) {
+    if (array[j] > maxValue) {
+      maxValue = array[j];
+      let swap = array[i];
+      array[i] = maxValue;
+      array[j] = swap;
+    }
+  }
+}
+console.log(array);</code>
+        </pre>
+    </section>    
+    <section class="skills">
+      <div class="skills__inner">
+        <h3 class="skills__header">Skills</h3>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <div class="skills__value skills__value--html">HTML</div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__value skills__value--css">CSS</div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__value skills__value--js">JS</div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__value skills__value--git">GIT</div>
+          </li>
+          <li class="skills__item">
+            <div class="skills__value skills__value--figma">FIGMA</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="sec-wrap">
+      <section class="languages">
+        <h3 class="languages__header">Language</h3>
+          <dl>
+            <div class="languages__row row">
+              <dt class="row__title">Russian:</dt>
+              <dd class="row__desc">Native</dd>
+            </div>
+            <div class="languages__row row">
+              <dt class="row__title">English:</dt>
+              <dd class="row__desc">A2</dd>
+            </div>
+          </dl>
+      </section>
+      <section class="contacts">
+      <h3 class="contacts__header">Contacts</h3>
+      <dl>
+        <div class="contacts__row row">
+          <dt class="row__title">Email:</dt>
+          <dd class="row__desc">
+            <a class="link" href="mailto:reez74@gmail.com">reez74@gmail.com</a>
+          </dd>
+        </div>
+        <div class="contacts__row row">
+          <dt class="row__title">GitHub:</dt>
+          <dd class="row__desc">
+            <a class="link" href="https://github.com/Reez74">Reez74</a>
+          </dd>
+        </div>
+      </dl>
+      </section>
+    </div>
+  </main>
+  <footer class="footer wrap">
+    <ul class="footer__list">
+      <li class="footer__item">
+        <a class="link" href="https://github.com/Reez74">GitHub</a>
+      </li>
+      <li class="footer__item">
+        <a class="link" href="https://rs.school/js/">
+          <img class="link-rss" src="./img/rs_school_js.svg" alt="Logo RS School">
+        </a>
+      </li>
+      <li class="footer__item">
+        <span>2022</span>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
